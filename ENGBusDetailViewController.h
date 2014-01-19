@@ -1,5 +1,5 @@
 //
-//  ENGFirstViewController.h
+//  ENGBusDetailViewController.h
 //  1401MDF1-Project3
 //
 //  Created by Eric Garcia on 1/18/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ENGFirstViewController : UIViewController
+@interface ENGBusDetailViewController : UIViewController
 
 @end

@@ -15,8 +15,6 @@
 		5CC2686F188B53B6004EE079 /* ENGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2686E188B53B6004EE079 /* ENGAppDelegate.m */; };
 		5CC26872188B53B6004EE079 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC26870188B53B6004EE079 /* Main_iPhone.storyboard */; };
 		5CC26875188B53B6004EE079 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC26873188B53B6004EE079 /* Main_iPad.storyboard */; };
-		5CC26878188B53B6004EE079 /* ENGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC26877188B53B6004EE079 /* ENGFirstViewController.m */; };
-		5CC2687B188B53B6004EE079 /* ENGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2687A188B53B6004EE079 /* ENGSecondViewController.m */; };
 		5CC2687D188B53B6004EE079 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC2687C188B53B6004EE079 /* Images.xcassets */; };
 		5CC26884188B53B6004EE079 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC26883188B53B6004EE079 /* XCTest.framework */; };
 		5CC26885188B53B6004EE079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC2685E188B53B6004EE079 /* Foundation.framework */; };
@@ -24,6 +22,9 @@
 		5CC2688E188B53B6004EE079 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CC2688C188B53B6004EE079 /* InfoPlist.strings */; };
 		5CC26890188B53B6004EE079 /* _401MDF1_Project3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2688F188B53B6004EE079 /* _401MDF1_Project3Tests.m */; };
 		5CC2689A188B54EB004EE079 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC26899188B54EB004EE079 /* MapKit.framework */; };
+		5CC2689D188B5F2D004EE079 /* ENGBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2689C188B5F2D004EE079 /* ENGBusinessViewController.m */; };
+		5CC268A0188B601B004EE079 /* ENGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2689F188B601B004EE079 /* ENGMapViewController.m */; };
+		5CC268A6188B6D78004EE079 /* ENGBusDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC268A5188B6D78004EE079 /* ENGBusDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +50,6 @@
 		5CC2686E188B53B6004EE079 /* ENGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENGAppDelegate.m; sourceTree = "<group>"; };
 		5CC26871188B53B6004EE079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		5CC26874188B53B6004EE079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		5CC26876188B53B6004EE079 /* ENGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENGFirstViewController.h; sourceTree = "<group>"; };
-		5CC26877188B53B6004EE079 /* ENGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENGFirstViewController.m; sourceTree = "<group>"; };
-		5CC26879188B53B6004EE079 /* ENGSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENGSecondViewController.h; sourceTree = "<group>"; };
-		5CC2687A188B53B6004EE079 /* ENGSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENGSecondViewController.m; sourceTree = "<group>"; };
 		5CC2687C188B53B6004EE079 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5CC26882188B53B6004EE079 /* 1401MDF1-Project3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1401MDF1-Project3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC26883188B53B6004EE079 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +57,12 @@
 		5CC2688D188B53B6004EE079 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CC2688F188B53B6004EE079 /* _401MDF1_Project3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _401MDF1_Project3Tests.m; sourceTree = "<group>"; };
 		5CC26899188B54EB004EE079 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5CC2689B188B5F2D004EE079 /* ENGBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENGBusinessViewController.h; path = ../ENGBusinessViewController.h; sourceTree = "<group>"; };
+		5CC2689C188B5F2D004EE079 /* ENGBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENGBusinessViewController.m; path = ../ENGBusinessViewController.m; sourceTree = "<group>"; };
+		5CC2689E188B601B004EE079 /* ENGMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENGMapViewController.h; sourceTree = "<group>"; };
+		5CC2689F188B601B004EE079 /* ENGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENGMapViewController.m; sourceTree = "<group>"; };
+		5CC268A4188B6D78004EE079 /* ENGBusDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENGBusDetailViewController.h; path = ../ENGBusDetailViewController.h; sourceTree = "<group>"; };
+		5CC268A5188B6D78004EE079 /* ENGBusDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENGBusDetailViewController.m; path = ../ENGBusDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +126,14 @@
 			children = (
 				5CC2686D188B53B6004EE079 /* ENGAppDelegate.h */,
 				5CC2686E188B53B6004EE079 /* ENGAppDelegate.m */,
+				5CC2689B188B5F2D004EE079 /* ENGBusinessViewController.h */,
+				5CC2689C188B5F2D004EE079 /* ENGBusinessViewController.m */,
+				5CC268A4188B6D78004EE079 /* ENGBusDetailViewController.h */,
+				5CC268A5188B6D78004EE079 /* ENGBusDetailViewController.m */,
+				5CC2689E188B601B004EE079 /* ENGMapViewController.h */,
+				5CC2689F188B601B004EE079 /* ENGMapViewController.m */,
 				5CC26870188B53B6004EE079 /* Main_iPhone.storyboard */,
 				5CC26873188B53B6004EE079 /* Main_iPad.storyboard */,
-				5CC26876188B53B6004EE079 /* ENGFirstViewController.h */,
-				5CC26877188B53B6004EE079 /* ENGFirstViewController.m */,
-				5CC26879188B53B6004EE079 /* ENGSecondViewController.h */,
-				5CC2687A188B53B6004EE079 /* ENGSecondViewController.m */,
 				5CC2687C188B53B6004EE079 /* Images.xcassets */,
 				5CC26865188B53B6004EE079 /* Supporting Files */,
 			);
@@ -263,10 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC268A0188B601B004EE079 /* ENGMapViewController.m in Sources */,
 				5CC2686B188B53B6004EE079 /* main.m in Sources */,
-				5CC2687B188B53B6004EE079 /* ENGSecondViewController.m in Sources */,
 				5CC2686F188B53B6004EE079 /* ENGAppDelegate.m in Sources */,
-				5CC26878188B53B6004EE079 /* ENGFirstViewController.m in Sources */,
+				5CC2689D188B5F2D004EE079 /* ENGBusinessViewController.m in Sources */,
+				5CC268A6188B6D78004EE079 /* ENGBusDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +491,7 @@
 				5CC26895188B53B6004EE079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CC26896188B53B6004EE079 /* Build configuration list for PBXNativeTarget "1401MDF1-Project3Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +500,7 @@
 				5CC26898188B53B6004EE079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
