@@ -25,6 +25,7 @@
 		5CC2689D188B5F2D004EE079 /* ENGBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2689C188B5F2D004EE079 /* ENGBusinessViewController.m */; };
 		5CC268A0188B601B004EE079 /* ENGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2689F188B601B004EE079 /* ENGMapViewController.m */; };
 		5CC268A6188B6D78004EE079 /* ENGBusDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC268A5188B6D78004EE079 /* ENGBusDetailViewController.m */; };
+		5CEF635B1890D965008B7392 /* ENGBusList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF635A1890D965008B7392 /* ENGBusList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		5CC2689F188B601B004EE079 /* ENGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENGMapViewController.m; sourceTree = "<group>"; };
 		5CC268A4188B6D78004EE079 /* ENGBusDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENGBusDetailViewController.h; path = ../ENGBusDetailViewController.h; sourceTree = "<group>"; };
 		5CC268A5188B6D78004EE079 /* ENGBusDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENGBusDetailViewController.m; path = ../ENGBusDetailViewController.m; sourceTree = "<group>"; };
+		5CEF63591890D965008B7392 /* ENGBusList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENGBusList.h; sourceTree = "<group>"; };
+		5CEF635A1890D965008B7392 /* ENGBusList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENGBusList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				5CC2689F188B601B004EE079 /* ENGMapViewController.m */,
 				5CC26870188B53B6004EE079 /* Main_iPhone.storyboard */,
 				5CC26873188B53B6004EE079 /* Main_iPad.storyboard */,
+				5CEF63591890D965008B7392 /* ENGBusList.h */,
+				5CEF635A1890D965008B7392 /* ENGBusList.m */,
 				5CC2687C188B53B6004EE079 /* Images.xcassets */,
 				5CC26865188B53B6004EE079 /* Supporting Files */,
 			);
@@ -273,6 +278,7 @@
 				5CC2686F188B53B6004EE079 /* ENGAppDelegate.m in Sources */,
 				5CC2689D188B5F2D004EE079 /* ENGBusinessViewController.m in Sources */,
 				5CC268A6188B6D78004EE079 /* ENGBusDetailViewController.m in Sources */,
+				5CEF635B1890D965008B7392 /* ENGBusList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

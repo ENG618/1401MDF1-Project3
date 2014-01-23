@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="132" y="180"/>
         </scene>
-        <!--Df - Map-->
+        <!--Map View Controller - Map-->
         <scene sceneID="CpO-3T-F2W">
             <objects>
-                <viewController id="eSd-g1-z5G" customClass="df" sceneMemberID="viewController">
+                <viewController id="eSd-g1-z5G" customClass="ENGMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rdW-6C-ymi"/>
                         <viewControllerLayoutGuide type="bottom" id="dWN-lR-ZPr"/>
@@ -110,19 +110,28 @@
                     <view key="view" contentMode="scaleToFill" id="Cv1-7u-B6I">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LvB-um-Nu9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="second" id="HrL-Ln-jmw"/>
+                    <connections>
+                        <outlet property="mapOverview" destination="LvB-um-Nu9" id="ruj-Ke-YcD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ME-tA-ZNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1179" y="499"/>
         </scene>
-        <!--Navigation Controller - Business-->
+        <!--Navigation Controller - Locations-->
         <scene sceneID="ERW-2K-hxL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YaL-R0-NCO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Business" image="first" id="YeD-t1-X1C"/>
+                    <tabBarItem key="tabBarItem" title="Locations" image="first" id="YeD-t1-X1C"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="N63-Mv-GXU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

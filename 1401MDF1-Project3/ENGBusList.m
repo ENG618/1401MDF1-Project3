@@ -10,4 +10,34 @@
 
 @implementation ENGBusList
 
+static ENGBusList *_instance = nil;
+
++ (ENGBusList*)GetInstance
+{
+    if (_instance == nil) {
+        [[self alloc] init];
+    }
+    return _instance;
+}
+
+- (id)alloc
+{
+    _instance = [super alloc];
+    
+    return _instance;
+}
+
+- (id)init
+{
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
+
+- (void)printBus
+{
+    //print out list of businesses here
+}
+
 @end

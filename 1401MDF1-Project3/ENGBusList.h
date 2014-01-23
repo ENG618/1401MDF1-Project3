@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface ENGBusList : NSObject
+//Static method
++ (ENGBusList*)GetInstance;
 
+//Instance method
+- (void)printBus;
 @end

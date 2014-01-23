@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ENGBusList.h"
 
 @interface ENGBusinessViewController : UITableViewController
 

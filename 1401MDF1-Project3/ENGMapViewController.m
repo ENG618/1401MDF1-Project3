@@ -29,6 +29,20 @@
 	// Do any additional setup after loading the view.
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    CLLocationCoordinate2D zoomLocation = CLLocationCoordinate2DMake(28.53f, -81.3f);
+    
+    MKCoordinateSpan zoomSpan;
+    zoomSpan.latitudeDelta = 1.0f;
+    zoomSpan.longitudeDelta = 1.0f;
+    
+    //Animated zooming into specified location and span
+    [mapOverview setRegion:MKCoordinateRegionMake(zoomLocation, zoomSpan) animated:YES];
+    
+    //Send 
+    //mapOverview.region = MKCoordinateRegionMake(zoomLocation, zoomSpan);
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

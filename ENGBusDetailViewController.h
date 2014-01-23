@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "ENGBusList.h"
 
 @interface ENGBusDetailViewController : UIViewController
 
